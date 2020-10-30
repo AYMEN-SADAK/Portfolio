@@ -12,11 +12,16 @@ import {faBriefcase} from "@fortawesome/free-solid-svg-icons/faBriefcase";
 import {faInfoCircle} from "@fortawesome/free-solid-svg-icons/faInfoCircle";
 import {faTasks} from "@fortawesome/free-solid-svg-icons/faTasks";
 import {faExpandAlt} from "@fortawesome/free-solid-svg-icons/faExpandAlt";
+import {faBars} from "@fortawesome/free-solid-svg-icons/faBars";
+import {faPlusCircle} from "@fortawesome/free-solid-svg-icons/faPlusCircle";
+import {faBirthdayCake} from "@fortawesome/free-solid-svg-icons/faBirthdayCake";
+import {faHome} from "@fortawesome/free-solid-svg-icons/faHome";
+import {faAt} from "@fortawesome/free-solid-svg-icons/faAt";
+import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-Vue.component('font-awesome-icon', )
 
 Vue.config.productionTip = false
 // Install BootstrapVue
@@ -30,6 +35,12 @@ library.add(faBriefcase)
 library.add(faInfoCircle)
 library.add(faTasks)
 library.add(faExpandAlt)
+library.add(faBars)
+library.add(faPlusCircle)
+library.add(faBirthdayCake)
+library.add(faHome)
+library.add(faAt)
+library.add(faGithub)
 library.add(fab)
 
 

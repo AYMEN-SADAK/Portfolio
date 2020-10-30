@@ -1,7 +1,6 @@
 <template>
   <div >
     <b-sidebar id="sidebar-footer" aria-label="Sidebar with custom footer" shadow v-bind:visible="isPhone">
-
       <template #footer="{ }">
         <div class="d-flex bg-dark text-light align-items-center px-3 py-2">
           <strong class="mr-auto">Aymen SADAK </strong>
